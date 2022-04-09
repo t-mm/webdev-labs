@@ -45,17 +45,21 @@ h2, p {
 
 #location {
     margin-bottom: 5%;
+    font-size: large;
 }
 
 
 .grid-container {
     display: grid;
-    grid-template-columns: 40% auto;
+    grid-template-columns: 25% auto;
 }
 .grid-item {
-    font-weight: bold;
+    
     margin-top: 1%;
     margin-bottom: 1%;
+}
+#second_col {
+    font-weight: bold;
 }
 
 .data-table {
