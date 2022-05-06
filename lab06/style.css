@@ -112,3 +112,37 @@ button {
 .high-contrast button {
     color: black;
 }
+
+/* Dyslexia mode */
+.dyslexia-mode {
+    /* Adjust letter and word spacing to recommended settings */
+    letter-spacing: 0.35ch;
+    word-spacing: 1.225ch;
+
+    /* Disable ligatures */
+    font-variant-ligatures: none;
+
+    /* Make font-size bigger */
+    font-size: 150%;
+}
+
+/* Modify line spacing */
+.dyslexia-mode .content {
+    line-height: 2.0;
+    color: #000;
+}
+.dyslexia-mode #dyslexia-toggle, .dyslexia-mode header {
+    color: #000;
+}
+.dyslexia-mode .content p{
+    margin-top: 3.5em;
+}
+
+.dyslexia-mode p, .dyslexia-mode h2 {
+    border: none;
+    /* Narrow line width */
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+}
